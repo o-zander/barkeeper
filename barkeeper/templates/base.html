@@ -1,0 +1,27 @@
+<!DOCTYPE html> {% load static i18n compressed %} {% get_current_language as lang %}
+<html lang="{{ lang }}">
+    <head>
+        <title>{% block title %}BarKeeper{% endblock %}</title>
+
+        {# Styles #}
+        <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+        {% compressed_css 'base' %}
+    </head>
+    <body>
+        <nav class="navbar {% block navigation-classes %}navbar-default{% endblock %}" role="navigation">
+            <div class="container-fluid">
+                {% block navigation %}{% endblock %}
+            </div>
+        </nav>
+
+        <div class="container-fluid">
+            {% block content %}{% endblock %}
+        </div>
+
+        {% block footer %}{% endblock %}
+
+        {# Scripts #}
+        <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    </body>
+</html>

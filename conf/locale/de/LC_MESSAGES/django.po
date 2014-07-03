@@ -1,0 +1,66 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-07-02 14:31+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Name"
+msgstr "Name"
+
+msgid "Recipe Category"
+msgstr "Rezept-Kategorie"
+
+msgid "Recipe Categories"
+msgstr "Rezept-Kategorien"
+
+msgid "Description"
+msgstr "Beschreibung"
+
+msgid "Instructions"
+msgstr "Anweisungen"
+
+msgid "Recipe"
+msgstr "Rezept"
+
+msgid "Recipes"
+msgstr "Rezepte"
+
+msgid "Ingredient Category"
+msgstr "Zutat-Kategorie"
+
+msgid "Ingredient Categories"
+msgstr "Zutat-Kategorien"
+
+msgid "Ingredient"
+msgstr "Zutat"
+
+msgid "Ingredients"
+msgstr "Zutaten"
+
+msgid "Amount"
+msgstr "Menge"
+
+msgid "in ml"
+msgstr "in ml"
+
+msgid "Recipe Ingredient"
+msgstr "Rezept-Zutat"
+
+msgid "Recipe Ingredients"
+msgstr "Rezept-Zutaten"
+
+msgid "Toggle navigation"
+msgstr "Navigation umschalten"
