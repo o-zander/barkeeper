@@ -8,11 +8,7 @@
         {% compressed_css 'base' %}
     </head>
     <body>
-        <nav class="navbar {% block navigation-classes %}navbar-default{% endblock %}" role="navigation">
-            <div class="container-fluid">
-                {% block navigation %}{% endblock %}
-            </div>
-        </nav>
+        {% block navigation %}{% include 'components/navigation.html' %}{% endblock %}
 
         <div class="container-fluid">
             {% block content %}{% endblock %}
